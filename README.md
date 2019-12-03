@@ -1,5 +1,5 @@
-jiriki estimator
-
+Jiriki Estimator
+===
 ## Description
 This is the laravel project to estimate your beatmania IIDX skills.
 
