@@ -15,8 +15,8 @@ class estimatorController extends Controller
 
         if(Auth::check()){
             $clears = Clear::where('u_id',$user->id)->get();///getをかかないとダメ！！！
-            foreach($musics as $music){
-                if(Clear::where('m_id',$music->m_id)->where('u_id',$user->id)->count()==0){
+            if(Clear::where('m_id',1)->where('u_id',$user->id)->count()==0){
+                foreach($musics as $music){
                     $clear = new Clear;
                     $clear->m_id = $music->m_id;
                     $clear->u_id = $user->id;
