@@ -132,5 +132,5 @@ $check=$clears->where('m_id',$item->m_id)->first()->info
 @endsection
 
 @section('footer')
-copyright 2019 Okada Hibiki
+copyright 2019 Okada Hibiki 地力値は(https://sp12.iidx.app/recommends)を参考にさせていただきました。
 @endsection

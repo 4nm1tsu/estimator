@@ -51,7 +51,7 @@ text-decoration: underline;
   width: 30%;
   height: 10%;
   position: fixed;
-  bottom: 10px;
+  top: 10px;
   right: 10px;
   padding: 6px 40px;
 
