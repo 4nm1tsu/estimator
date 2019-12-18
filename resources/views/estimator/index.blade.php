@@ -5,9 +5,9 @@
     @endphp
 @if(Auth::check())
 <p>DJ NAME:{{$user->name}}</p>
-<p id='logout'><a href='/logout'>ログアウト</a></p>
+<p id='logout'><a href='./logout'>ログアウト</a></p>
 @else
-    <p>ログインしていません(<a href='/login'>ログイン</a>|<a href='/register'>登録</a>)</p>
+    <p>ログインしていません(<a href='./login'>ログイン</a>|<a href='./register'>登録</a>)</p>
 @endif
 @endsection
 
