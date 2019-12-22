@@ -12,7 +12,7 @@
 @endsection
 
 @section('content')
-<form action='/' method='post'>
+<form action='./' method='post'>
 <center>
 <button type='submit' class='fixed_btn'>record</button>
 <!--推定値-->
